@@ -1,0 +1,2 @@
+2020-12-11 14:49:49,309:INFO:logger_03.py:x: 7 - y: 7
+2020-12-11 14:49:49,309:WARNING:logger_03.py:x: 7.5 type: <class 'float'> - y: 9 type: <class 'int'>

@@ -1,6 +1,19 @@
-11/12/2020 11:46:16 AM 2128 logger.pyINFO this is coming from my new logger
-11/12/2020 11:46:16 AM 2128 logger.pyERROR this is an error
-11/12/2020 11:46:16 AM 2128 logger.pyWARNING this is warning
-11/12/2020 11:46:18 AM 2288 logger.pyINFO this is coming from my new logger
-11/12/2020 11:46:18 AM 2288 logger.pyERROR this is an error
-11/12/2020 11:46:18 AM 2288 logger.pyWARNING this is warning
+11/12/2020 12:08:55 PM 1760 logger.pyERROR this is an error
+11/12/2020 12:09:04 PM 10136 logger.pyERROR this is an error
+11/12/2020 12:09:05 PM 8928 logger.pyERROR this is an error
+11/12/2020 12:11:54 PM 3220 logger.pyERROR this is an error
+11/12/2020 12:11:54 PM 3220 logger.pyWARNING this is warning
+11/12/2020 12:11:58 PM 14296 logger.pyERROR this is an error
+11/12/2020 12:11:58 PM 14296 logger.pyWARNING this is warning
+11/12/2020 12:12:17 PM 10152 logger.pyINFO Deu ruim alguma coisa
+11/12/2020 12:12:17 PM 10152 logger.pyINFO this is coming from my new logger
+11/12/2020 12:12:17 PM 10152 logger.pyERROR this is an error
+11/12/2020 12:12:17 PM 10152 logger.pyWARNING this is warning
+11/12/2020 12:13:42 PM 2664 logger.pyINFO Deu ruim alguma coisa
+11/12/2020 12:13:42 PM 2664 logger.pyINFO this is coming from my new logger
+11/12/2020 12:13:42 PM 2664 logger.pyERROR this is an error
+11/12/2020 12:13:42 PM 2664 logger.pyWARNING this is warning
+11/12/2020 12:38:11 PM 5292 logger.pyINFO Deu ruim alguma coisa
+11/12/2020 12:38:11 PM 5292 logger.pyINFO this is coming from my new logger
+11/12/2020 12:38:11 PM 5292 logger.pyERROR this is an error
+11/12/2020 12:38:11 PM 5292 logger.pyWARNING this is warning

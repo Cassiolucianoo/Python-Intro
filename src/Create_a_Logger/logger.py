@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.INFO,
                     datefmt='%d/%m/%Y %I:%M:%S %p',
                     filename='log_info.log',
                     filemode='a')
-#logging.info('Deu ruim alguma coisa')
+logging.info('Deu ruim alguma coisa')
 
 LOG = logging.getLogger('meu_projeto_logger')
 LOG.info('this is coming from my new logger')
