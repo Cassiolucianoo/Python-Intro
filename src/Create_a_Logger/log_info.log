@@ -1,0 +1,6 @@
+11/12/2020 11:46:16 AM 2128 logger.pyINFO this is coming from my new logger
+11/12/2020 11:46:16 AM 2128 logger.pyERROR this is an error
+11/12/2020 11:46:16 AM 2128 logger.pyWARNING this is warning
+11/12/2020 11:46:18 AM 2288 logger.pyINFO this is coming from my new logger
+11/12/2020 11:46:18 AM 2288 logger.pyERROR this is an error
+11/12/2020 11:46:18 AM 2288 logger.pyWARNING this is warning
