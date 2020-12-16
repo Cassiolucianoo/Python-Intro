@@ -1,0 +1,11 @@
+encoded_header, encoded_payload, encoded_signature = JWT.split('.')
+
+encoded_signature_checker = base64UrlEncode(
+  HMACSHA256(encoded_header + '.' + encoded_payload, secret)
+)
+
+if encoded_signature_checker == encoded_signature:
+  payload = base64UrlDecode(encoded_payload)
+  return payload
+else:
+  raise Exception('Assinatura inválida')
