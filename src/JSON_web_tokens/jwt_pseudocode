@@ -1,0 +1,16 @@
+header = {
+  "typ": "JWT",
+  "alg": "HS256"
+}
+
+payload = {
+  "userId": "55395427-265a-4166-ac93-da6879edb57a",
+  "exp": 1556841600
+}
+
+encoded_header = base64UrlEncode(header)
+encoded_payload = base64UrlEncode(payload)
+
+signature = HMACSHA256(encoded_header + '.' + encoded_payload, secret)
+
+JWT = encoded_header + '.' + encoded_payload + '.' + base64UrlEncode(signature)
