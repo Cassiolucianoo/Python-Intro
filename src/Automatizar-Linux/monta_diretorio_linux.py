@@ -2,7 +2,7 @@
 #aws s3 cp s3://natura-datalake-dev/landing/linx.loja_cf_sat_imposto-20201010/ 
 # /home/237435195/linx.loja_cf_sat_imposto-20201010/ --recursive
 
-comando = 'aws s4 cp s4://natural-datalake-dev/landing/linx.[interface]-[data]/ /home/237435195/linx.[interface]-[data]/ --recursive'
+comando = 'aws s3 cp s3://natura-datalake-dev/landing/linx_erp.[interface]-[data]/ /home/237435195/linx_erp.[interface]-[data]/ --recursive'
 data = '20201010'
 tabelas = [
  'loja_venda'
@@ -35,5 +35,5 @@ for tabela in tabelas:
     comando = comando.replace('[interface]', tabela)
     comando = comando.replace('[data]', data)
     print(comando)
-    comando = 'aws s4 cp s4://natural-datalake-dev/landing/linx.[interface]-[data]/ /home/237435195/linx.[interface]-[data]/ --recursive'
+    comando = 'aws s3 cp s3://natura-datalake-dev/landing/linx_erp.[interface]-[data]/ /home/237435195/linx_erp.[interface]-[data]/ --recursive'
     #spark-submit consumer_tbs_spark.py dev loja_nota_fiscal "" 20201010
